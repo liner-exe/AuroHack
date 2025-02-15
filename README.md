@@ -5,7 +5,7 @@
 - Браузер Chrome
 
 ## Настройка расширения
-1) Скачайте [актуальную](https://github.com/liner-exe/AuroHack/releases/latest) версию расширения.
+1) Скачайте [актуальную](https://github.com/liner-exe/AuroHack/releases/latest) версию расширения (AuroHack.zip).
 2) Распакуйте расширение в удобное вам место.
 3) Зайдите в меню "расширения" браузера и включите режим разработчика:<br><img src='./assets/1_developer_mode.png' alt='developer mode'>
 4) Загрузите раннее распакованное расширение:<br><img src='./assets/2_upload_extension.png' alt='upload extension'>
