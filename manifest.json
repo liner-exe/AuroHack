@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AuroHack",
+  "version": "1.3",
+  "description": "Allows you paste in Aurora.",
+  "content_scripts": [
+    {
+      "matches": ["https://mirea.aco-avrora.ru/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "cookies"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://mirea.aco-avrora.ru/*"]
+    }
+  ]
+}
